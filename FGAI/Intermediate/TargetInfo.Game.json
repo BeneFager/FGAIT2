@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FGAI",
+			"Path": "A:\\Perforce\\Team_2_FGAIUpg\\FG20FT_AI_Team2\\FGAI\\Source\\FGAI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FGAIEditor",
+			"Path": "A:\\Perforce\\Team_2_FGAIUpg\\FG20FT_AI_Team2\\FGAI\\Source\\FGAIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,1041 @@
+﻿Log file open, 04/29/21 21:23:24
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: FGAI
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.196432
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogXGEController: Cleaning working directory: C:/Users/bene/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15228867
+LogInit: Engine Version: 4.26.1-15228867+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): Jan 28 2021 07:07:34
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: A:/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.29-19.23.24:934][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.29-19.23.24:934][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.29-19.23.24:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:934][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.29-19.23.24:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:934][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.29-19.23.24:934][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.29-19.23.24:935][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.29-19.23.24:936][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.29-19.23.24:936][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.29-19.23.24:936][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.29-19.23.24:936][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.29-19.23.24:936][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.04.29-19.23.24:936][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:936][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:943][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:944][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.29-19.23.24:945][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.29-19.23.24:946][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.29-19.23.24:947][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.04.29-19.23.24:948][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.04.29-19.23.24:948][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.29-19.23.24:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.29-19.23.24:949][  0]LogHAL: Display: Platform has ~ 16 GB [17109749760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.29-19.23.24:949][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.29-19.23.24:949][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.29-19.23.24:949][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.29-19.23.24:950][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.29-19.23.24:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.29-19.23.24:952][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.29-19.23.24:953][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.29-19.23.24:953][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.29-19.23.24:953][  0]LogInit: Computer: BENES
+[2021.04.29-19.23.24:953][  0]LogInit: User: bene
+[2021.04.29-19.23.24:953][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.04.29-19.23.24:953][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.29-19.23.24:953][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.29-19.23.24:953][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.29-19.23.24:953][  0]LogMemory: Process Physical Memory: 130.16 MB used, 130.16 MB peak
+[2021.04.29-19.23.24:953][  0]LogMemory: Process Virtual Memory: 108.92 MB used, 108.92 MB peak
+[2021.04.29-19.23.24:953][  0]LogMemory: Physical Memory: 10340.51 MB used,  5976.62 MB free, 16317.13 MB total
+[2021.04.29-19.23.24:953][  0]LogMemory: Virtual Memory: 134214016.00 MB used,  3715.21 MB free, 134217728.00 MB total
+[2021.04.29-19.23.24:961][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.29-19.23.25:068][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.29-19.23.25:069][  0]LogInit: Using OS detected language (en-US).
+[2021.04.29-19.23.25:069][  0]LogInit: Using OS detected locale (sv-SE).
+[2021.04.29-19.23.25:071][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.29-19.23.25:200][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.29-19.23.25:228][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.04.29-19.23.25:254][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.29-19.23.25:254][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.29-19.23.25:344][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.29-19.23.25:344][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.29-19.23.25:344][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.29-19.23.25:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2021.04.29-19.23.25:455][  0]LogD3D11RHI:       12143/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.29-19.23.25:460][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.29-19.23.25:460][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.29-19.23.25:460][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.29-19.23.25:463][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.29-19.23.25:463][  0]LogD3D11RHI:     GPU DeviceId: 0x2503 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.29-19.23.25:463][  0]LogWindows: EnumDisplayDevices:
+[2021.04.29-19.23.25:464][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2021.04.29-19.23.25:464][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2021.04.29-19.23.25:464][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2021.04.29-19.23.25:464][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2021.04.29-19.23.25:465][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.29-19.23.25:465][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2021.04.29-19.23.25:465][  0]LogD3D11RHI:   Driver Version: 466.11 (internal:27.21.14.6611, unified:466.11)
+[2021.04.29-19.23.25:465][  0]LogD3D11RHI:      Driver Date: 4-12-2021
+[2021.04.29-19.23.25:465][  0]LogRHI: Texture pool is 8500 MB (70% of 12143 MB)
+[2021.04.29-19.23.25:527][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.29-19.23.25:527][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.29-19.23.25:527][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.29-19.23.25:539][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.29-19.23.25:543][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.04.29-19.23.25:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.29-19.23.25:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.29-19.23.25:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.29-19.23.25:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.29-19.23.25:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.29-19.23.25:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.29-19.23.25:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.29-19.23.25:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.29-19.23.25:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.29-19.23.25:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.29-19.23.25:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.29-19.23.25:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.29-19.23.25:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.29-19.23.25:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.29-19.23.25:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.29-19.23.25:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.29-19.23.25:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.29-19.23.25:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.29-19.23.25:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.29-19.23.25:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.29-19.23.25:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.29-19.23.25:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.29-19.23.25:876][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.04.29-19.23.25:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.04.29-19.23.25:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.04.29-19.23.25:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.04.29-19.23.25:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.29-19.23.25:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.29-19.23.25:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.29-19.23.25:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.29-19.23.25:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.29-19.23.25:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.29-19.23.25:959][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.29-19.23.25:981][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.29-19.23.26:112][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.04.29-19.23.26:112][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Intermediate/Shaders/WorkingDirectory/5688/).
+[2021.04.29-19.23.26:113][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bene/AppData/Local/Temp/UnrealShaderWorkingDir/800D350248987AB05A689E8BCEAEC87B/'.
+[2021.04.29-19.23.26:113][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.29-19.23.26:113][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.29-19.23.26:682][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.29-19.23.26:720][  0]LogDerivedDataCache: Loaded boot cache 0.04s 77MB C:/Users/bene/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.04.29-19.23.26:720][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bene/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.04.29-19.23.26:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.29-19.23.26:721][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.29-19.23.26:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.29-19.23.26:721][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.29-19.23.26:730][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.29-19.23.26:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.29-19.23.26:732][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.29-19.23.26:736][  0]LogDerivedDataCache: Speed tests for C:/Users/bene/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.00 seconds
+[2021.04.29-19.23.26:737][  0]LogDerivedDataCache: Display: Performance to C:/Users/bene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1820.77MBs, RandomWriteSpeed=247.19MBs. Assigned SpeedClass 'Local'
+[2021.04.29-19.23.26:738][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.29-19.23.26:738][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.29-19.23.26:738][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.29-19.23.26:777][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.29-19.23.26:777][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.29-19.23.26:799][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2021.04.29-19.23.26:958][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.29-19.23.26:958][  0]LogInit: Active device profile: [00000220E5B27C00][00000220E3F8D740 49] Windows
+[2021.04.29-19.23.26:958][  0]LogInit: Profiles: [00000220E5B27C00][00000220E3F8D740 49] Windows, [00000220E5AE8500][00000220E3F91880 49] WindowsNoEditor, [00000220E5B24500][00000220E3F99A00 49] WindowsServer, [00000220E5AEB500][00000220E3F9DB80 49] WindowsClient, [00000220E5B27400][00000220E3FA1D00 49] IOS, [00000220E5AE8E00][00000220E3FA41C0 49] iPadAir, [00000220E5B24E00][00000220E3FA8340 49] iPadAir2, [00000220E5AACF00][00000220E6156600 49] IPadPro, [00000220E5AAD000][00000220E3FAC640 49] iPadAir3, [00000220E5B26E00][00000220E615A7C0 49] iPadAir4, [00000220E5AACB00][00000220E615E940 49] iPadMini2, [00000220E5B25300][00000220E6162AC0 49] iPadMini3, [00000220E5AAE000][00000220E6166C40 49] iPadMini4, [00000220E5B26500][00000220E616ADC0 49] iPadMini5, [00000220E5AE8B00][00000220E6173080 49] iPhone6, [00000220E5AEB700][00000220E616F0C0 49] iPodTouch6, [00000220E5AAF300][00000220E617B380 49] iPhone7, [00000220E5AAC800][00000220E61773C0 49] iPodTouch7, [00000220E5AEAE00][00000220E617F540 49] iPhone5S, [00000220E5AACD00][00000220E3F95680 49] iPhone6Plus, [00000220E5AEAB00][00000220E61837C0 49] iPhone6S, [00000220E5AAFA00][00000220E6187900 49] iPhone6SPlus, [00000220E5AEA300][00000220E618FA80 49] iPhone7Plus, [00000220E5AAC600][00000220E6193C00 49] iPhoneSE, [00000220E5AE8200][00000220E61960C0 49] iPhone8, [00000220E5AAD100][00000220E619A240 49] iPhone8Plus, [00000220E5AE9700][00000220E619E3C0 49] iPhoneX, [00000220E5AAE500][00000220E61A2540 49] iPhoneXS, [00000220E5AEBE00][00000220E61A66C0 49] iPhoneXSMax, [00000220E5AAD500][00000220E61AA840 49] iPhoneXR, [00000220E5AE9900][00000220E61AE9C0 49] iPhone11, [00000220E5AAE600][00000220E61B2B40 49] iPhone11Pro, [00000220E5AEA000][00000220E61B6CC0 49] iPhone11ProMax, [00000220E5AAE200][00000220E61BAE40 49] iPhoneSE2, [00000220E5AEB600][00000220E61BEFC0 49] iPhone12Mini, [00000220E5AAEA00][00000220E61D5140 49] iPhone12, [00000220E5AE9B00][00000220E61F92C0 49] iPhone12Pro, [00000220E5AAF700][00000220E61FD440 49] iPhone12ProMax, [00000220E5AE9300][00000220E620D5C0 49] iPadPro105, [00000220E5AAEB00][00000220E618B700 49] iPadPro129, [00000220E5AE8F00][00000220E6235840 49] iPadPro97, [00000220E5AAF100][00000220E6241980 49] iPadPro2_129, [00000220E5AE9A00][00000220E6245AC0 49] iPad5, [00000220E5AAC700][00000220E624DC40 49] iPad6, [00000220E5AE8300][00000220E6272100 49] iPad7, [00000220E5AAC300][00000220E627A280 49] iPad8, [00000220E5AE8100][00000220E627E400 49] iPadPro11, [00000220E5AAC100][00000220E6282580 49] iPadPro2_11, [00000220E5AE8600][00000220E628A700 49] iPadPro3_129, [00000220E5AADE00][00000220E628E880 49] iPadPro4_129, [00000220E5AEBB00][00000220E629AA00 49] AppleTV, [00000220E5AACC00][00000220E629EB80 49] AppleTV4K, [00000220E5AE9E00][00000220E62AED00 49] TVOS, [00000220E5AAE700][00000220E62B2E80 49] Mac, [00000220E5AEAC00][00000220E62B7000 49] MacClient, [00000220E5AAD400][00000220E62BB180 49] MacNoEditor, [00000220E5AE9500][00000220E62BF300 49] MacServer, [00000220E5AAF800][00000220E62C3480 49] Linux, [00000220E5AE8700][00000220E62C7600 49] LinuxNoEditor, [00000220E5AAC400][00000220E6249740 49] LinuxAArch64NoEditor, [00000220E5AE8A00][00000220E62CB880 49] LinuxClient, [00000220E5AAFD00][00000220E62CF9C0 49] LinuxAArch64Client, [00000220E5AE9D00][00000220E62D3B00 49] LinuxServer, [00000220E5AAF600][00000220E62DBC80 49] LinuxAArch64Server, [00000220E5AE9400][00000220E62FE140 49] Android, [00000220E5B25B00][00000220E63022C0 49] Android_Low, [00000220E5B65A00][00000220E6306440 49] Android_Mid, [00000220E5B24600][00000220E630A5C0 49] Android_High, [00000220E5B66400][00000220E630E740 49] Android_Default, [00000220E5B25D00][00000220E63128C0 49] Android_Adreno4xx, [00000220E5B64A00][00000220E6316A40 49] Android_Adreno5xx_Low, [00000220E5B26100][00000220E631ABC0 49] Android_Adreno5xx, [00000220E5B64200][00000220E631ED40 49] Android_Adreno6xx, [00000220E5B24200][00000220E634EEC0 49] Android_Adreno6xx_Vulkan, [00000220E5B64400][00000220E6353040 49] Android_Mali_T6xx, [00000220E5B26000][00000220E63571C0 49] Android_Mali_T7xx, [00000220E5B64800][00000220E635B340 49] Android_Mali_T8xx, [00000220E5B27800][00000220E635F4C0 49] Android_Mali_G71, [00000220E5B65D00][00000220E6363640 49] Android_Mali_G72, [00000220E5B26F00][00000220E63677C0 49] Android_Mali_G72_Vulkan, [00000220E5B66100][00000220E62D7900 49] Android_Mali_G76, [00000220E5B25700][00000220E636BA40 49] Android_Mali_G76_Vulkan, [00000220E5B65300][00000220E636FB80 49] Android_Mali_G77, [00000220E5AEAD00][00000220E6377D00 49] Android_Mali_G77_Vulkan, [00000220E5AAF200][00000220E637A1C0 49] Android_Vulkan_SM5, [00000220E5AE9800][00000220E637E340 49] Android_PowerVR_G6xxx, [00000220E5AAFF00][00000220E63824C0 49] Android_PowerVR_GT7xxx, [00000220E5AE8D00][00000220E6386640 49] Android_PowerVR_GE8xxx, [00000220E5AAE400][00000220E638A7C0 49] Android_PowerVR_GM9xxx, [00000220E5AE8800][00000220E638E940 49] Android_PowerVR_GM9xxx_Vulkan, [00000220E5B65C00][00000220E6392AC0 49] Android_TegraK1, [00000220E5AEB400][00000220E6396C40 49] Android_Unknown_Vulkan, [00000220E5B64700][00000220E639ADC0 49] Lumin, [00000220E5AEB100][00000220E639EF40 49] Lumin_Desktop, [00000220E5B65E00][00000220E63A30C0 49] HoloLens, 
+[2021.04.29-19.23.27:081][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.29-19.23.27:081][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.29-19.23.27:081][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.29-19.23.27:081][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.29-19.23.27:081][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.29-19.23.27:099][  0]LogNetVersion: FGAI 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 439728770)
+[2021.04.29-19.23.27:417][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.018986 seconds
+[2021.04.29-19.23.27:421][  0]LogUObjectArray: 16663 objects as part of root set at end of initial load.
+[2021.04.29-19.23.27:422][  0]LogUObjectAllocator: 4164480 out of 0 bytes used by permanent object pool.
+[2021.04.29-19.23.27:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.29-19.23.28:050][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.29-19.23.28:057][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.29-19.23.28:437][  0]SourceControl: Source control is disabled
+[2021.04.29-19.23.28:437][  0]SourceControl: Source control is disabled
+[2021.04.29-19.23.28:491][  0]LogUProjectInfo: Found projects:
+[2021.04.29-19.23.28:854][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.29-19.23.28:895][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.29-19.23.28:895][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.29-19.23.29:001][  0]LogCollectionManager: Loaded 0 collections in 0.000561 seconds
+[2021.04.29-19.23.29:065][  0]LogFileCache: Scanning file cache for directory 'A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Collections/' took 0.00s
+[2021.04.29-19.23.29:065][  0]LogFileCache: Scanning file cache for directory 'A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/Developers/bene/Collections/' took 0.00s
+[2021.04.29-19.23.29:065][  0]LogFileCache: Scanning file cache for directory 'A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/Collections/' took 0.00s
+[2021.04.29-19.23.29:065][  0]LogEngine: Initializing Engine...
+[2021.04.29-19.23.29:066][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.29-19.23.29:066][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.29-19.23.29:144][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.29-19.23.29:154][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.29-19.23.29:164][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.04.29-19.23.29:172][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.04.29-19.23.29:172][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.29-19.23.29:172][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.29-19.23.29:172][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.29-19.23.29:173][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.29-19.23.29:173][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.29-19.23.29:191][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.29-19.23.29:191][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.29-19.23.29:225][  0]LogAudioMixer: Display: Using Audio Device Speakers (Focusrite Usb Audio)
+[2021.04.29-19.23.29:229][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.29-19.23.29:230][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.29-19.23.29:230][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.29-19.23.29:231][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.29-19.23.29:231][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.04.29-19.23.29:231][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.04.29-19.23.29:232][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.04.29-19.23.29:232][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.04.29-19.23.29:232][  0]LogInit: FAudioDevice initialized.
+[2021.04.29-19.23.29:233][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.04.29-19.23.29:233][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.29-19.23.31:105][  0]LogDerivedDataCache: Saved boot cache 1.87s 77MB C:/Users/bene/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.04.29-19.23.31:106][  0]LogInit: Texture streaming: Enabled
+[2021.04.29-19.23.31:125][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-15228867+++UE4+Release-4.26
+[2021.04.29-19.23.31:132][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.29-19.23.31:132][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={00B7C01F-47B4-BD5B-355D-2681F8B3C263}
+[2021.04.29-19.23.31:132][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.29-19.23.31:134][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.29-19.23.31:149][  0]LogLiveCoding: Display: Starting LiveCoding
+[2021.04.29-19.23.31:149][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: FGAIEditor Win64 Development
+[2021.04.29-19.23.31:614][  0]LogLiveCoding: Display: First instance in process group "UE4_FGAI_0xc5a22bb6", spawning console
+[2021.04.29-19.23.31:614][  0]LogLiveCoding: Display: Waiting for server
+[2021.04.29-19.23.31:614][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2021.04.29-19.23.31:622][  0]LogInit: Transaction tracking system initialized
+[2021.04.29-19.23.31:664][  0]BlueprintLog: New page: Editor Load
+[2021.04.29-19.23.31:793][  0]LocalizationService: Localization service is disabled
+[2021.04.29-19.23.31:844][  0]TimingProfiler: Initialize
+[2021.04.29-19.23.31:845][  0]TimingProfiler: OnSessionChanged
+[2021.04.29-19.23.31:845][  0]LoadingProfiler: Initialize
+[2021.04.29-19.23.31:845][  0]LoadingProfiler: OnSessionChanged
+[2021.04.29-19.23.31:845][  0]NetworkingProfiler: Initialize
+[2021.04.29-19.23.31:845][  0]NetworkingProfiler: OnSessionChanged
+[2021.04.29-19.23.31:845][  0]MemoryProfiler: Initialize
+[2021.04.29-19.23.31:845][  0]MemoryProfiler: OnSessionChanged
+[2021.04.29-19.23.31:941][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2021.04.29-19.23.31:986][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.04.29-19.23.31:986][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.29-19.23.32:267][  0]LogFileCache: Scanning file cache for directory 'A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/' took 0.00s
+[2021.04.29-19.23.32:267][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.04.29-19.23.32:299][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.189
+[2021.04.29-19.23.32:299][  0]Cmd: MAP LOAD FILE="../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.29-19.23.32:299][  0]LightingResults: New page: Lighting Build
+[2021.04.29-19.23.32:300][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-19.23.32:300][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.29-19.23.32:300][  0]MapCheck: New page: Map Check
+[2021.04.29-19.23.32:300][  0]LightingResults: New page: Lighting Build
+[2021.04.29-19.23.32:308][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.04.29-19.23.32:351][  0]LogLinker: Warning: Asset '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_AIController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.29-19.23.32:354][  0]LogLinker: Warning: Asset '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/DA_EnemyVisionSettings.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.29-19.23.32:356][  0]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] Internal Compiler Error: Tried to create a property TakeDamageComp in scope SKEL_BP_Enemy_C, but another object (ObjectProperty /Script/FGAI.FGEnemy:TakeDamageComp) already exists there.
+[2021.04.29-19.23.32:357][  0]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] Internal Compiler Error: Tried to create a property TakeDamageComp in scope BP_Enemy_C, but another object (ObjectProperty /Script/FGAI.FGEnemy:TakeDamageComp) already exists there.
+[2021.04.29-19.23.32:359][  0]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.23.32:361][  0]LogLinker: Warning: Asset '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_GameMode_Default.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.29-19.23.32:362][  0]LogLinker: Warning: Asset '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.29-19.23.32:442][  0]LogLinker: Warning: Asset '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.29-19.23.32:624][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
+[2021.04.29-19.23.32:625][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.29-19.23.32:632][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.29-19.23.32:641][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.04.29-19.23.32:642][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.29-19.23.32:642][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,106ms to complete.
+[2021.04.29-19.23.32:642][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.343
+[2021.04.29-19.23.32:644][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.535
+[2021.04.29-19.23.32:779][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.29-19.23.32:783][  0]LogSourceControl: Attempting 'p4 client -o Team_2_FGAIUpg'
+[2021.04.29-19.23.32:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.29-19.23.32:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.29-19.23.32:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.29-19.23.32:803][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0071 seconds. Added 3598 classes and 848 folders.
+[2021.04.29-19.23.32:805][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.29-19.23.32:806][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.04.29-19.23.32:806][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:807][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.29-19.23.32:807][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.04.29-19.23.32:807][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.04.29-19.23.32:807][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:807][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.04.29-19.23.32:807][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.04.29-19.23.32:808][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.04.29-19.23.32:808][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:808][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.04.29-19.23.32:808][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.04.29-19.23.32:809][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.29-19.23.32:809][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:809][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.29-19.23.32:809][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.04.29-19.23.32:809][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.04.29-19.23.32:809][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:809][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.04.29-19.23.32:809][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.04.29-19.23.32:810][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.04.29-19.23.32:810][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:810][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.04.29-19.23.32:810][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.04.29-19.23.32:810][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.04.29-19.23.32:810][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:810][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.04.29-19.23.32:810][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.04.29-19.23.32:811][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.04.29-19.23.32:811][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:811][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.04.29-19.23.32:811][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.04.29-19.23.32:811][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.04.29-19.23.32:811][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:811][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.04.29-19.23.32:811][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.04.29-19.23.32:812][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.04.29-19.23.32:812][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:812][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.04.29-19.23.32:812][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2021.04.29-19.23.32:812][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.04.29-19.23.32:812][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:813][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.04.29-19.23.32:813][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.04.29-19.23.32:813][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.04.29-19.23.32:813][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:813][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.04.29-19.23.32:813][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2021.04.29-19.23.32:814][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.29-19.23.32:814][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:814][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.29-19.23.32:814][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.04.29-19.23.32:814][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.04.29-19.23.32:814][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:814][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.04.29-19.23.32:814][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.04.29-19.23.32:815][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.04.29-19.23.32:815][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:815][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.04.29-19.23.32:815][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.04.29-19.23.32:815][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.04.29-19.23.32:815][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:816][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.29-19.23.32:816][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.04.29-19.23.32:816][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.04.29-19.23.32:816][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:816][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.04.29-19.23.32:816][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.04.29-19.23.32:817][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.04.29-19.23.32:817][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:817][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.04.29-19.23.32:817][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.04.29-19.23.32:817][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.29-19.23.32:817][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:817][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.29-19.23.32:817][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.04.29-19.23.32:818][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.29-19.23.32:818][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:818][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.29-19.23.32:818][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.04.29-19.23.32:819][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.04.29-19.23.32:819][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:819][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.29-19.23.32:819][  0]LogPakFile: OnPakFileMounted2Time == 0.000055
+[2021.04.29-19.23.32:820][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.04.29-19.23.32:820][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:820][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.04.29-19.23.32:820][  0]LogPakFile: OnPakFileMounted2Time == 0.000058
+[2021.04.29-19.23.32:821][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.04.29-19.23.32:821][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:821][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.04.29-19.23.32:821][  0]LogPakFile: OnPakFileMounted2Time == 0.000061
+[2021.04.29-19.23.32:821][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.04.29-19.23.32:821][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:821][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.04.29-19.23.32:821][  0]LogPakFile: OnPakFileMounted2Time == 0.000064
+[2021.04.29-19.23.32:822][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.29-19.23.32:822][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:822][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.29-19.23.32:822][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2021.04.29-19.23.32:822][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.04.29-19.23.32:823][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.29-19.23.32:823][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.04.29-19.23.32:823][  0]LogPakFile: OnPakFileMounted2Time == 0.000069
+[2021.04.29-19.23.32:846][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.29-19.23.32:849][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.04.29-19.23.32:951][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.29-19.23.32:953][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.29-19.23.32:956][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.29-19.23.33:033][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2021.04.29-19.23.33:070][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.29-19.23.33:117][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.29-19.23.33:117][  0]LogLoad: (Engine Initialization) Total time: 9.01 seconds
+[2021.04.29-19.23.33:117][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.29-19.23.33:117][  0]LogInit: First time updating LLM stats...
+[2021.04.29-19.23.33:149][  0]LogAssetRegistry: Asset discovery search completed in 6.3505 seconds
+[2021.04.29-19.23.33:150][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.29-19.23.33:179][  0]SourceControl: Client Team_2_FGAIUpg
+[2021.04.29-19.23.33:179][  0]SourceControl: Update 2021/04/26 14:50:21
+[2021.04.29-19.23.33:179][  0]SourceControl: Access 2021/04/29 21:20:55
+[2021.04.29-19.23.33:179][  0]SourceControl: Owner Benjamin.Fager
+[2021.04.29-19.23.33:179][  0]SourceControl: Host Benes
+[2021.04.29-19.23.33:179][  0]SourceControl: Description Created by Benjamin.Fager.
+
+[2021.04.29-19.23.33:179][  0]SourceControl: Root A:\Perforce\Team_2_FGAIUpg
+[2021.04.29-19.23.33:179][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2021.04.29-19.23.33:179][  0]SourceControl: SubmitOptions submitunchanged
+[2021.04.29-19.23.33:180][  0]SourceControl: LineEnd local
+[2021.04.29-19.23.33:180][  0]SourceControl: View0 //FG20FT_AI_Team2/... //Team_2_FGAIUpg/FG20FT_AI_Team2/...
+[2021.04.29-19.23.33:180][  0]SourceControl: specFormatted 
+[2021.04.29-19.23.33:180][  0]SourceControl: func client-FstatInfo
+[2021.04.29-19.23.33:180][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.29-19.23.33:288][  1]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Config/DefaultEngine.ini A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/Components/DamageSenseComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/FGAIGameMode.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/StateMachine/FGAIStateBase.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/StateMachine/FGAIStateMachineSheet.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/FGCharacter.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/FGEnemy.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/Sensing/FGHearingComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/Components/FGMovementComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/Movement/FGNavMovementComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/Sensing/FGNoiseActor.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/StateMachine/FGStateMachineComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingSettings.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingTargetComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/Components/HealthComponent.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/LibBp.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/Components/TakeDamageComp.h A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Source/FGAI/Components/TargetingComponent.h'
+[2021.04.29-19.23.33:332][  3]LogMaterial: Display: Material /Game/SFE/Materials/M_MasterLayer.M_MasterLayer needed to have new flag set bUsedWithNiagaraMeshParticles !
+[2021.04.29-19.23.33:333][  3]LogMaterial: Display: Missing cached shader map for material M_MasterLayer, compiling. 
+[2021.04.29-19.23.33:376][  3]LogMaterial: Display: Missing cached shader map for material M_MasterLayer, compiling. 
+[2021.04.29-19.23.33:396][  4]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2021.04.29-19.23.33:397][  4]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2021.04.29-19.23.33:397][  4]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2021.04.29-19.23.33:397][  4]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.04.29-19.23.33:416][  5]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/SFE/Materials/M_MasterLayer.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/SFE/Models/Door_01/Mi_Door_Light.uasset'
+[2021.04.29-19.23.34:574][ 47]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.29-19.23.36:019][171]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2021.04.29-19.23.36:912][241]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.29-19.23.37:841][316]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2021.04.29-19.23.37:841][316]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2021.04.29-19.23.39:291][426]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.04.29-19.23.39:808][466]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.04.29-19.23.39:894][473]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.04.29-19.23.40:272][501]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.04.29-19.23.40:391][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.04.29-19.23.48:494][ 52]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.29-19.23.48:509][ 52]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy
+[2021.04.29-19.23.48:596][ 52]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
+[2021.04.29-19.23.49:267][ 52]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.29-19.23.49:294][ 52]LogSlate: Took 0.000076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.29-19.23.49:309][ 53]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.29-19.24.08:391][993]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] Internal Compiler Error: Tried to create a property TakeDamageComp in scope SKEL_BP_Enemy_C, but another object (ObjectProperty /Script/FGAI.FGEnemy:TakeDamageComp) already exists there.
+[2021.04.29-19.24.08:418][994]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.24.08:452][997]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2021.04.29-19.24.09:070][ 64]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] Internal Compiler Error: Tried to create a property TakeDamageComp in scope SKEL_BP_Enemy_C, but another object (ObjectProperty /Script/FGAI.FGEnemy:TakeDamageComp) already exists there.
+[2021.04.29-19.24.13:279][467]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.24.13:281][467]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] This blueprint (self) is not a TakeDamageComp, therefore ' Target ' must have a connection.
+[2021.04.29-19.24.13:312][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.04.29-19.24.30:155][954]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.24.30:157][954]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.24.30:189][954]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.04.29-19.33.33:340][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.04.29-19.33.33:354][104]LogSavePackage: Moving '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/FirstPersonExampleMap_Auto15B5CBEAC4F9FF8D9A1856BA172D9118D.tmp' to '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2021.04.29-19.33.33:355][104]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.033
+[2021.04.29-19.33.33:356][104]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2021.04.29-19.33.33:356][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/BP_Enemy] ([1] browsable assets)...
+[2021.04.29-19.33.33:378][104]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy]
+[2021.04.29-19.33.33:378][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/BP_Enemy]
+[2021.04.29-19.33.33:389][104]LogSavePackage: Moving '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/BP_Enemy_Auto1F9EDEBDB4F14CB67EEA645AB5E7C2DED.tmp' to '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/BP_Enemy_Auto1.uasset'
+[2021.04.29-19.33.33:389][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SFE/Models/Door_01/Mi_Door_Light] ([1] browsable assets)...
+[2021.04.29-19.33.33:416][104]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/SFE/Models/Door_01/Mi_Door_Light.MI_Door_Light]
+[2021.04.29-19.33.33:416][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/SFE/Models/Door_01/Mi_Door_Light]
+[2021.04.29-19.33.33:420][104]LogSavePackage: Moving '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Mi_Door_Light_Auto1629B607E4A28E7E2D507738731ECBB6A.tmp' to '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Autosaves/Game/SFE/Models/Door_01/Mi_Door_Light_Auto1.uasset'
+[2021.04.29-19.33.33:422][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SFE/Materials/M_MasterLayer] ([1] browsable assets)...
+[2021.04.29-19.33.33:436][104]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SFE/Materials/M_MasterLayer.M_MasterLayer]
+[2021.04.29-19.33.33:436][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/SFE/Materials/M_MasterLayer]
+[2021.04.29-19.33.33:448][104]LogSavePackage: Moving '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/M_MasterLayer_Auto101049D264ABB62DDAF3A319E03F476EC.tmp' to '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/Autosaves/Game/SFE/Materials/M_MasterLayer_Auto1.uasset'
+[2021.04.29-19.33.33:449][104]LogFileHelpers: Auto-saving content packages took 0.093
+[2021.04.29-19.35.04:368][905]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.35.04:370][905]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.35.04:435][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.04.29-19.35.59:399][937]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_AIController.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_GameMode_Default.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Player.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_PlayerProjectile.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BPI_Damageable.uasset A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/DA_EnemyVisionSettings.uasset'
+[2021.04.29-19.36.05:582][653]LogLiveCoding: Display:    Creating library A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Binaries\Win64\UE4Editor-FGAI.exe.lib and object A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Binaries\Win64\UE4Editor-FGAI.exe.exp
+[2021.04.29-19.36.12:450][399]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.36.12:476][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/BP_Enemy" FILE="../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset" SILENT=true
+[2021.04.29-19.36.12:487][399]LogSavePackage: Moving '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/BP_Enemy2665626A4EC4D5C2C7A8FE87738ACD4B.tmp' to '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.36.12:497][399]AssetCheck: New page: Asset Save: BP_Enemy
+[2021.04.29-19.36.12:498][399]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy
+[2021.04.29-19.36.14:316][613]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.36.14:318][613]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.36.14:348][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.04.29-19.36.16:682][874]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.36.19:482][177]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.36.19:485][177]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] This blueprint (self) is not a TakeDamageComp, therefore ' Target ' must have a connection.
+[2021.04.29-19.36.19:514][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.04.29-19.36.37:353][188]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.36.37:377][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/BP_Enemy" FILE="../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset" SILENT=true
+[2021.04.29-19.36.37:387][188]LogSavePackage: Moving '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Saved/BP_EnemyAF3E752D47C15583D51767BB363B156D.tmp' to '../../../../../Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.36.37:397][188]AssetCheck: New page: Asset Save: BP_Enemy
+[2021.04.29-19.36.37:397][188]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy
+[2021.04.29-19.36.38:439][299]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.36.38:442][299]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] This blueprint (self) is not a TakeDamageComp, therefore ' Target ' must have a connection.
+[2021.04.29-19.36.38:470][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.04.29-19.36.44:356][860]LogSourceControl: Attempting 'p4 fstat -Or A:/Perforce/Team_2_FGAIUpg/FG20FT_AI_Team2/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.04.29-19.36.49:332][332]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.36.49:334][332]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.36.49:362][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.04.29-19.37.35:054][150]LogLiveCoding: Display:    Creating library A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Binaries\Win64\UE4Editor-FGAI.exe.lib and object A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Binaries\Win64\UE4Editor-FGAI.exe.exp
+[2021.04.29-19.37.38:040][444]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.37.38:042][444]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.37.38:070][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.04.29-19.37.41:814][853]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.37.41:816][853]LogBlueprint: Error: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] This blueprint (self) is not a TakeDamageComp, therefore ' Target ' must have a connection.
+[2021.04.29-19.37.41:844][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.04.29-19.38.31:548][282]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.38.31:550][282]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.38.31:579][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.04.29-19.39.10:955][199]BlueprintLog: New page: Compile BP_Enemy
+[2021.04.29-19.39.10:957][199]LogBlueprint: Warning: [AssetLog] A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Content\FirstPersonCPP\Blueprints\BP_Enemy.uasset: [Compiler] FGEnemy.TakeDamageComp is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get TakeDamageComp
+[2021.04.29-19.39.10:986][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.04.29-19.39.14:975][642]LogLiveCoding: Display:    Creating library A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Binaries\Win64\UE4Editor-FGAI.exe.lib and object A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Binaries\Win64\UE4Editor-FGAI.exe.exp
+[2021.04.29-19.39.22:197][  2]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.29-19.39.22:201][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.29-19.39.22:202][  2]PIE: New page: PIE session: FirstPersonExampleMap (29 apr. 2021 23:39:22)
+[2021.04.29-19.39.22:203][  2]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.29-19.39.22:205][  2]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.29-19.39.22:205][  2]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.29-19.39.22:213][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008069s)
+[2021.04.29-19.39.22:214][  2]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.29-19.39.22:215][  2]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2021.04.29-19.39.22:215][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009839s)
+[2021.04.29-19.39.22:232][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.04.29-19.39.22:233][  2]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.29-19.39.22:234][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.29-19.39.22:234][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.29-19.39.22:235][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.29-19.39.22:235][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.29-19.39.22:237][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.29-19.39.22:237][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.04.29-19.39.22:243][  2]LogAudioMixer: Display: Using Audio Device Speakers (Focusrite Usb Audio)
+[2021.04.29-19.39.22:244][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.29-19.39.22:244][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.29-19.39.22:244][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.29-19.39.22:244][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.29-19.39.22:245][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.04.29-19.39.22:245][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.04.29-19.39.22:255][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.04.29-19.39.22:255][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.04.29-19.39.22:255][  2]LogInit: FAudioDevice initialized.
+[2021.04.29-19.39.22:256][  2]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2021.04.29-19.39.22:261][  2]LogLoad: Game class is 'BP_GameMode_Default_C'
+[2021.04.29-19.39.22:262][  2]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.29-21.39.22
+[2021.04.29-19.39.22:263][  2]LogWorld: Bringing up level for play took: 0.001195
+[2021.04.29-19.39.22:263][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.04.29-19.39.22:269][  2]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.04.29-19.39.22:269][  2]LogTemp: asdadadad
+[2021.04.29-19.39.22:270][  2]LogTemp: asdadadad
+[2021.04.29-19.39.22:270][  2]LogTemp: asdadadad
+[2021.04.29-19.39.22:270][  2]PIE: Server logged in
+[2021.04.29-19.39.22:271][  2]PIE: Play in editor total start time 0,07 seconds.
+[2021.04.29-19.39.23:151][ 72]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Concrete_Poured.M_Concrete_Poured missing bUsedWithNiagaraMeshParticles=True! Default Material will be used in game.
+[2021.04.29-19.39.23:151][ 72]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2021.04.29-19.39.23:630][127]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.23:630][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.23:631][127]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.23:721][138]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.23:721][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.23:721][138]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.24:905][280]LogTemp: dashing
+[2021.04.29-19.39.33:138][216]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.33:138][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.33:138][216]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.34:171][339]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.34:171][339]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.34:171][339]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.35:192][460]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.35:192][460]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.35:192][460]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.42:694][358]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.42:695][358]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.42:695][358]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.42:790][368]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.42:791][368]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.42:791][368]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.42:891][380]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.42:891][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.42:891][380]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:001][391]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:001][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:001][391]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:100][403]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:100][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:100][403]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:201][415]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:201][415]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:201][415]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:300][427]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:301][427]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:301][427]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:401][439]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:402][439]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:402][439]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:501][451]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:501][451]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:502][451]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:603][463]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:603][463]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:603][463]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:696][474]LogScript: Warning: Accessed None trying to read property TakeDamageComp
+	BP_Enemy_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2
+	Function /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:00A6
+[2021.04.29-19.39.43:696][474]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:697][474]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.43:805][487]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TakeDamageComp". Blueprint:  BP_Enemy Function:  Execute Ubergraph BP Enemy Graph:  EventGraph Node:  Take Damage
+[2021.04.29-19.39.43:805][487]LogBlueprintUserMessages: [BP_Enemy_2] BP_Enemy_2 took 10damage from BP_Player_C_0
+[2021.04.29-19.39.48:396][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.29-19.39.48:396][ 35]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.29-19.39.48:396][ 35]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-19.39.48:396][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.29-19.39.48:401][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.29-19.39.48:406][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.29-19.39.48:427][ 35]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.04.29-19.39.48:427][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.04.29-19.39.48:429][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.04.29-19.39.48:442][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.29-19.39.48:461][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.04.29-19.39.48:524][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_6
