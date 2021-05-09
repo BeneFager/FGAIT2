@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Components/HealthComponent.h"
 #include "GameFramework/Pawn.h"
 #include "FGCharacter.generated.h"
 
@@ -27,6 +28,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FirstPersonCameraComponent;
 
+	UPROPERTY(VisibleDefaultsOnly)
+	UHealthComponent* HealthComponent;
+	
 	AFGCharacter();
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */

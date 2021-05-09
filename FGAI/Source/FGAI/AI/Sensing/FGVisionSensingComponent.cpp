@@ -46,6 +46,7 @@ void UFGVisionSensingComponent::TickComponent(float DeltaTime, enum ELevelTick T
 		{
 			FFGVisionSensingResults Results;
 			Results.SensedActor = Target->GetOwner();
+			Player = nullptr;
 			OnTargetLost.Broadcast(Results);
 			SensedTargets.RemoveAt(Index);
 		}
@@ -64,6 +65,7 @@ void UFGVisionSensingComponent::TickComponent(float DeltaTime, enum ELevelTick T
 			SensedTargets.Add(Target);
 			FFGVisionSensingResults Results;
 			Results.SensedActor = Target->GetOwner();
+			Player = Results.SensedActor;
 			OnTargetSensed.Broadcast(Results);
 		}
 	}
@@ -104,7 +106,6 @@ bool UFGVisionSensingComponent::IsPlayerVisible(const FVector& PointToTest, cons
 	FCollisionQueryParams FColParam;
 	FColParam.AddIgnoredActor(GetOwner());
 
-	
 	if (GetWorld()->LineTraceSingleByChannel(Hit, Origin, (PointToTest - Origin) * 2000.f, ECC_GameTraceChannel1, FColParam))
 	{
 		FString output = Hit.Actor->GetName();

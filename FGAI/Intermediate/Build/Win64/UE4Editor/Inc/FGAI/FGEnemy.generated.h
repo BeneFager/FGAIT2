@@ -8,29 +8,15 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-struct FFGDamageSensingResults;
-struct FFGVisionSensingResults;
 #ifdef FGAI_FGEnemy_generated_h
 #error "FGEnemy.generated.h already included, missing '#pragma once' in FGEnemy.h"
 #endif
 #define FGAI_FGEnemy_generated_h
 
-#define FGAI_Source_FGAI_FGEnemy_h_23_SPARSE_DATA
-#define FGAI_Source_FGAI_FGEnemy_h_23_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execHandleHearingSense); \
-	DECLARE_FUNCTION(execHandleDamageSense); \
-	DECLARE_FUNCTION(execHandleVisionSense);
-
-
-#define FGAI_Source_FGAI_FGEnemy_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execHandleHearingSense); \
-	DECLARE_FUNCTION(execHandleDamageSense); \
-	DECLARE_FUNCTION(execHandleVisionSense);
-
-
-#define FGAI_Source_FGAI_FGEnemy_h_23_INCLASS_NO_PURE_DECLS \
+#define FGAI_Source_FGAI_FGEnemy_h_25_SPARSE_DATA
+#define FGAI_Source_FGAI_FGEnemy_h_25_RPC_WRAPPERS
+#define FGAI_Source_FGAI_FGEnemy_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define FGAI_Source_FGAI_FGEnemy_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFGEnemy(); \
 	friend struct Z_Construct_UClass_AFGEnemy_Statics; \
@@ -39,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AFGEnemy)
 
 
-#define FGAI_Source_FGAI_FGEnemy_h_23_INCLASS \
+#define FGAI_Source_FGAI_FGEnemy_h_25_INCLASS \
 private: \
 	static void StaticRegisterNativesAFGEnemy(); \
 	friend struct Z_Construct_UClass_AFGEnemy_Statics; \
@@ -48,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AFGEnemy)
 
 
-#define FGAI_Source_FGAI_FGEnemy_h_23_STANDARD_CONSTRUCTORS \
+#define FGAI_Source_FGAI_FGEnemy_h_25_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFGEnemy(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFGEnemy) \
@@ -61,7 +47,7 @@ private: \
 public:
 
 
-#define FGAI_Source_FGAI_FGEnemy_h_23_ENHANCED_CONSTRUCTORS \
+#define FGAI_Source_FGAI_FGEnemy_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFGEnemy(AFGEnemy&&); \
@@ -72,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFGEnemy); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFGEnemy)
 
 
-#define FGAI_Source_FGAI_FGEnemy_h_23_PRIVATE_PROPERTY_OFFSET
-#define FGAI_Source_FGAI_FGEnemy_h_20_PROLOG
-#define FGAI_Source_FGAI_FGEnemy_h_23_GENERATED_BODY_LEGACY \
+#define FGAI_Source_FGAI_FGEnemy_h_25_PRIVATE_PROPERTY_OFFSET
+#define FGAI_Source_FGAI_FGEnemy_h_22_PROLOG
+#define FGAI_Source_FGAI_FGEnemy_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FGAI_Source_FGAI_FGEnemy_h_23_PRIVATE_PROPERTY_OFFSET \
-	FGAI_Source_FGAI_FGEnemy_h_23_SPARSE_DATA \
-	FGAI_Source_FGAI_FGEnemy_h_23_RPC_WRAPPERS \
-	FGAI_Source_FGAI_FGEnemy_h_23_INCLASS \
-	FGAI_Source_FGAI_FGEnemy_h_23_STANDARD_CONSTRUCTORS \
+	FGAI_Source_FGAI_FGEnemy_h_25_PRIVATE_PROPERTY_OFFSET \
+	FGAI_Source_FGAI_FGEnemy_h_25_SPARSE_DATA \
+	FGAI_Source_FGAI_FGEnemy_h_25_RPC_WRAPPERS \
+	FGAI_Source_FGAI_FGEnemy_h_25_INCLASS \
+	FGAI_Source_FGAI_FGEnemy_h_25_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FGAI_Source_FGAI_FGEnemy_h_23_GENERATED_BODY \
+#define FGAI_Source_FGAI_FGEnemy_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FGAI_Source_FGAI_FGEnemy_h_23_PRIVATE_PROPERTY_OFFSET \
-	FGAI_Source_FGAI_FGEnemy_h_23_SPARSE_DATA \
-	FGAI_Source_FGAI_FGEnemy_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	FGAI_Source_FGAI_FGEnemy_h_23_INCLASS_NO_PURE_DECLS \
-	FGAI_Source_FGAI_FGEnemy_h_23_ENHANCED_CONSTRUCTORS \
+	FGAI_Source_FGAI_FGEnemy_h_25_PRIVATE_PROPERTY_OFFSET \
+	FGAI_Source_FGAI_FGEnemy_h_25_SPARSE_DATA \
+	FGAI_Source_FGAI_FGEnemy_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FGAI_Source_FGAI_FGEnemy_h_25_INCLASS_NO_PURE_DECLS \
+	FGAI_Source_FGAI_FGEnemy_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

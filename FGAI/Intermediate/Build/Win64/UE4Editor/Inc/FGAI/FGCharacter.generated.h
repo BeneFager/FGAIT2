@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FGAI_FGCharacter_generated_h
 
-#define FGAI_Source_FGAI_FGCharacter_h_15_SPARSE_DATA
-#define FGAI_Source_FGAI_FGCharacter_h_15_RPC_WRAPPERS
-#define FGAI_Source_FGAI_FGCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FGAI_Source_FGAI_FGCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define FGAI_Source_FGAI_FGCharacter_h_16_SPARSE_DATA
+#define FGAI_Source_FGAI_FGCharacter_h_16_RPC_WRAPPERS
+#define FGAI_Source_FGAI_FGCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FGAI_Source_FGAI_FGCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFGCharacter(); \
 	friend struct Z_Construct_UClass_AFGCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AFGCharacter)
 
 
-#define FGAI_Source_FGAI_FGCharacter_h_15_INCLASS \
+#define FGAI_Source_FGAI_FGCharacter_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAFGCharacter(); \
 	friend struct Z_Construct_UClass_AFGCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AFGCharacter)
 
 
-#define FGAI_Source_FGAI_FGCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define FGAI_Source_FGAI_FGCharacter_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFGCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFGCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FGAI_Source_FGAI_FGCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define FGAI_Source_FGAI_FGCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFGCharacter(AFGCharacter&&); \
@@ -58,7 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFGCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFGCharacter)
 
 
-#define FGAI_Source_FGAI_FGCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+#define FGAI_Source_FGAI_FGCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(AFGCharacter, Speed); } \
 	FORCEINLINE static uint32 __PPO__Gravity() { return STRUCT_OFFSET(AFGCharacter, Gravity); } \
 	FORCEINLINE static uint32 __PPO__MaxJumpCount() { return STRUCT_OFFSET(AFGCharacter, MaxJumpCount); } \
@@ -66,27 +66,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFGCharacter); \
 	FORCEINLINE static uint32 __PPO__JumpStrength() { return STRUCT_OFFSET(AFGCharacter, JumpStrength); }
 
 
-#define FGAI_Source_FGAI_FGCharacter_h_12_PROLOG
-#define FGAI_Source_FGAI_FGCharacter_h_15_GENERATED_BODY_LEGACY \
+#define FGAI_Source_FGAI_FGCharacter_h_13_PROLOG
+#define FGAI_Source_FGAI_FGCharacter_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FGAI_Source_FGAI_FGCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	FGAI_Source_FGAI_FGCharacter_h_15_SPARSE_DATA \
-	FGAI_Source_FGAI_FGCharacter_h_15_RPC_WRAPPERS \
-	FGAI_Source_FGAI_FGCharacter_h_15_INCLASS \
-	FGAI_Source_FGAI_FGCharacter_h_15_STANDARD_CONSTRUCTORS \
+	FGAI_Source_FGAI_FGCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	FGAI_Source_FGAI_FGCharacter_h_16_SPARSE_DATA \
+	FGAI_Source_FGAI_FGCharacter_h_16_RPC_WRAPPERS \
+	FGAI_Source_FGAI_FGCharacter_h_16_INCLASS \
+	FGAI_Source_FGAI_FGCharacter_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FGAI_Source_FGAI_FGCharacter_h_15_GENERATED_BODY \
+#define FGAI_Source_FGAI_FGCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FGAI_Source_FGAI_FGCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	FGAI_Source_FGAI_FGCharacter_h_15_SPARSE_DATA \
-	FGAI_Source_FGAI_FGCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FGAI_Source_FGAI_FGCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	FGAI_Source_FGAI_FGCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	FGAI_Source_FGAI_FGCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	FGAI_Source_FGAI_FGCharacter_h_16_SPARSE_DATA \
+	FGAI_Source_FGAI_FGCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FGAI_Source_FGAI_FGCharacter_h_16_INCLASS_NO_PURE_DECLS \
+	FGAI_Source_FGAI_FGCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

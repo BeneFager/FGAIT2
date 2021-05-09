@@ -22,15 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	FGAI_API UClass* Z_Construct_UClass_UFGVisionSensingComponent_NoRegister();
 	FGAI_API UClass* Z_Construct_UClass_UDamageSenseComponent_NoRegister();
-	FGAI_API UClass* Z_Construct_UClass_UFGHearingComponent_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(UTargetingComponent::execHandleHearingSense)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->HandleHearingSense();
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(UTargetingComponent::execHandleDamageSense)
 	{
 		P_GET_STRUCT_REF(FFGDamageSensingResults,Z_Param_Out_Results);
@@ -52,7 +44,6 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 		UClass* Class = UTargetingComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "HandleDamageSense", &UTargetingComponent::execHandleDamageSense },
-			{ "HandleHearingSense", &UTargetingComponent::execHandleHearingSense },
 			{ "HandleVisionSense", &UTargetingComponent::execHandleVisionSense },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -94,28 +85,6 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UTargetingComponent_HandleDamageSense_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UTargetingComponent_HandleHearingSense_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTargetingComponent_HandleHearingSense_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Components/TargetingComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTargetingComponent_HandleHearingSense_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTargetingComponent, nullptr, "HandleHearingSense", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTargetingComponent_HandleHearingSense_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UTargetingComponent_HandleHearingSense_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UTargetingComponent_HandleHearingSense()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UTargetingComponent_HandleHearingSense_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -182,10 +151,6 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SenseDamageComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SenseDamageComp;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HearingComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HearingComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -196,7 +161,6 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTargetingComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UTargetingComponent_HandleDamageSense, "HandleDamageSense" }, // 2925954505
-		{ &Z_Construct_UFunction_UTargetingComponent_HandleHearingSense, "HandleHearingSense" }, // 2912898335
 		{ &Z_Construct_UFunction_UTargetingComponent_HandleVisionSense, "HandleVisionSense" }, // 3882199057
 	};
 #if WITH_METADATA
@@ -210,10 +174,11 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget_MetaData[] = {
+		{ "Category", "Target" },
 		{ "ModuleRelativePath", "Components/TargetingComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget = { "CurrentTarget", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTargetingComponent, CurrentTarget), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget = { "CurrentTarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTargetingComponent, CurrentTarget), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTargetingComponent_Statics::NewProp_VisionSensingComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -228,18 +193,10 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTargetingComponent_Statics::NewProp_SenseDamageComp = { "SenseDamageComp", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTargetingComponent, SenseDamageComp), Z_Construct_UClass_UDamageSenseComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_SenseDamageComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_SenseDamageComp_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTargetingComponent_Statics::NewProp_HearingComponent_MetaData[] = {
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Components/TargetingComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTargetingComponent_Statics::NewProp_HearingComponent = { "HearingComponent", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTargetingComponent, HearingComponent), Z_Construct_UClass_UFGHearingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_HearingComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTargetingComponent_Statics::NewProp_HearingComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTargetingComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTargetingComponent_Statics::NewProp_CurrentTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTargetingComponent_Statics::NewProp_VisionSensingComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTargetingComponent_Statics::NewProp_SenseDamageComp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTargetingComponent_Statics::NewProp_HearingComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UTargetingComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UTargetingComponent>::IsAbstract,
@@ -268,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeTargetingComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTargetingComponent, 942012523);
+	IMPLEMENT_CLASS(UTargetingComponent, 160424573);
 	template<> FGAI_API UClass* StaticClass<UTargetingComponent>()
 	{
 		return UTargetingComponent::StaticClass();

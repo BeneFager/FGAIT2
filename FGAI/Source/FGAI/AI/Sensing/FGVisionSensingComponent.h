@@ -47,6 +47,7 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = Debug)
 	bool bDebugDrawVision = false;
-	
 
+	AActor* Player;
+	
 };

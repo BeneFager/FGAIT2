@@ -1,6 +1,7 @@
 #pragma once
 
 #include "AI/Sensing/FGVisionSensingComponent.h"
+#include "AI/StateMachine/FGStateMachineComponent.h"
 #include "Components/DamageSenseComponent.h"
 #include "Components/HealthComponent.h"
 #include "Components/TakeDamageComp.h"
@@ -16,6 +17,7 @@ class UFGNavMovementComponent;
 class UHealthComponent;
 class UTakeDamageComp;
 class UDamageSenseComponent;
+class UTargetingComponent;
 
 UCLASS()
 class AFGEnemy : public APawn
@@ -33,15 +35,9 @@ public:
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Movement)
 	UFGNavMovementComponent* NavMovementComponent;
-
-	UPROPERTY(EditAnywhere)
-	AActor* CurrentTarget;
 	
 	UPROPERTY(VisibleDefaultsOnly)
 	UDamageSenseComponent* SenseDamageComp;
-	
-	UPROPERTY(VisibleDefaultsOnly)
-	UFGHearingComponent* HearingComponent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UTakeDamageComp* TakeDamageComp;
@@ -49,6 +45,11 @@ public:
 	UPROPERTY(VisibleDefaultsOnly)
 	UHealthComponent* HealthComponent;
 
+	UPROPERTY(VisibleDefaultsOnly)
+	UFGStateMachineComponent* StateMachineComponent;
+
+	UPROPERTY(VisibleDefaultsOnly)
+	UTargetingComponent* TargetingComponent;
 	
 	AFGEnemy();
 
@@ -56,13 +57,6 @@ public:
 
 protected:
 	virtual void BeginPlay();
-
-	UFUNCTION()
-    void HandleVisionSense(const FFGVisionSensingResults& Results);
-	UFUNCTION()
-    void HandleDamageSense(const FFGDamageSensingResults& Results);
-	UFUNCTION()
-    void HandleHearingSense();
 	
 	UCapsuleComponent* GetCapsule() const { return Capsule; }
 };

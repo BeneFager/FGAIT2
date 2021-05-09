@@ -1,0 +1,62 @@
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\DebugGame\FGAI\Definitions.FGAI.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\FGEnemy.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\AI/Sensing/FGVisionSensingComponent.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGVisionSensingComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\AI/StateMachine/FGStateMachineComponent.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGStateMachineComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\Components/DamageSenseComponent.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\DamageSenseComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\Components/HealthComponent.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\HealthComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\Components/TakeDamageComp.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\TakeDamageComp.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGEnemy.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\AI/Movement/FGNavMovementComponent.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGNavMovementComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\Components/TargetingComponent.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\TargetingComponent.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\AIController.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\AITypes.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITypes.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTask.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\PathFollowingComponent.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionListenerInterface.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionListenerInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h

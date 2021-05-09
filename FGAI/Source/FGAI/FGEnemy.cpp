@@ -25,6 +25,8 @@ AFGEnemy::AFGEnemy()
 	SenseDamageComp = CreateDefaultSubobject<UDamageSenseComponent>(TEXT("SenseDamageComp"));
 	TakeDamageComp = CreateDefaultSubobject<UTakeDamageComp>(TEXT("TakeDamageComp"));
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
+	TargetingComponent = CreateDefaultSubobject<UTargetingComponent>(TEXT("TargetingComponent"));
+	StateMachineComponent = CreateDefaultSubobject<UFGStateMachineComponent>(TEXT("StateMachine"));
 }
 
 float AFGEnemy::GetDefaultHalfHeight() const
@@ -36,37 +38,5 @@ float AFGEnemy::GetDefaultHalfHeight() const
 void AFGEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-
-	UE_LOG(LogTemp, Log, TEXT("asdadadad"));
-	if (VisionSensingComponent != nullptr)
-	{
-		UE_LOG(LogTemp, Log, TEXT("asdadadad"));
-		VisionSensingComponent->OnTargetSensed.AddDynamic(this, &AFGEnemy::HandleVisionSense);
-	}
-
-	if (SenseDamageComp != nullptr)
-	{
-		UE_LOG(LogTemp, Log, TEXT("asdadadad"));
-		SenseDamageComp->OnSenseDamage.AddDynamic(this, &AFGEnemy::HandleDamageSense);
-	}
 }
 
-void AFGEnemy::HandleVisionSense(const FFGVisionSensingResults& Results)
-{
-	UE_LOG(LogTemp, Log, TEXT("asdadadad"));
-	AAIController* AIController = Cast<AAIController>(GetController());
-	CurrentTarget = Results.SensedActor;
-	AIController->MoveToLocation(CurrentTarget->GetActorLocation());
-}
-
-void AFGEnemy::HandleDamageSense(const FFGDamageSensingResults& Results)
-{
-	UE_LOG(LogTemp, Log, TEXT("asdadadad2"));
-	AAIController* AIController = Cast<AAIController>(GetController());
-	CurrentTarget = Results.DamageInstagator;
-	AIController->MoveToLocation(CurrentTarget->GetActorLocation());
-}
-
-void AFGEnemy::HandleHearingSense()
-{
-}

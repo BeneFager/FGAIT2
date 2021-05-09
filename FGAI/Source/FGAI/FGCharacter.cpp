@@ -44,6 +44,8 @@ AFGCharacter::AFGCharacter()
 
 	MovementComponent = CreateDefaultSubobject<UFGMovementComponent>(TEXT("MovementComponent"));
 	MovementComponent->SetUpdatedComponent(Capsule);
+
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 }
 
 void AFGCharacter::Tick(float DeltaTime)

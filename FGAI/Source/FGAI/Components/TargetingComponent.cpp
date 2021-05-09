@@ -19,13 +19,7 @@ void UTargetingComponent::BeginPlay()
 	{
 		SenseDamageComp->OnSenseDamage.AddDynamic(this, &UTargetingComponent::HandleDamageSense);
 	}
-	
-	// HearingComponent = GetOwner()->FindComponentByClass<UFGHearingComponent>();
-	//
-	// if (HearingComponent != nullptr)
-	// {
-	// 	
-	// }
+	Super::BeginPlay();
 }
 
 void UTargetingComponent::HandleVisionSense(const FFGVisionSensingResults& Results)
@@ -35,13 +29,9 @@ void UTargetingComponent::HandleVisionSense(const FFGVisionSensingResults& Resul
 
 void UTargetingComponent::HandleDamageSense(const FFGDamageSensingResults& Results)
 {
-	//Can check where the damage came from etc
-	//Change state här etc
+	CurrentTarget = Results.DamageInstagator;
 }
 
-void UTargetingComponent::HandleHearingSense()
-{
-}
 
 
 

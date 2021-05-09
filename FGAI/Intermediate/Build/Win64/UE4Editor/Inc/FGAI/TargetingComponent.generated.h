@@ -15,22 +15,20 @@ struct FFGVisionSensingResults;
 #endif
 #define FGAI_TargetingComponent_generated_h
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_SPARSE_DATA
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_RPC_WRAPPERS \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_SPARSE_DATA
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execHandleHearingSense); \
 	DECLARE_FUNCTION(execHandleDamageSense); \
 	DECLARE_FUNCTION(execHandleVisionSense);
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execHandleHearingSense); \
 	DECLARE_FUNCTION(execHandleDamageSense); \
 	DECLARE_FUNCTION(execHandleVisionSense);
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_INCLASS_NO_PURE_DECLS \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTargetingComponent(); \
 	friend struct Z_Construct_UClass_UTargetingComponent_Statics; \
@@ -39,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(UTargetingComponent)
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_INCLASS \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUTargetingComponent(); \
 	friend struct Z_Construct_UClass_UTargetingComponent_Statics; \
@@ -48,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(UTargetingComponent)
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_STANDARD_CONSTRUCTORS \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTargetingComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTargetingComponent) \
@@ -61,7 +59,7 @@ private: \
 public:
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_ENHANCED_CONSTRUCTORS \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTargetingComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -74,34 +72,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTargetingComponent); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTargetingComponent)
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CurrentTarget() { return STRUCT_OFFSET(UTargetingComponent, CurrentTarget); } \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__VisionSensingComponent() { return STRUCT_OFFSET(UTargetingComponent, VisionSensingComponent); } \
-	FORCEINLINE static uint32 __PPO__SenseDamageComp() { return STRUCT_OFFSET(UTargetingComponent, SenseDamageComp); } \
-	FORCEINLINE static uint32 __PPO__HearingComponent() { return STRUCT_OFFSET(UTargetingComponent, HearingComponent); }
+	FORCEINLINE static uint32 __PPO__SenseDamageComp() { return STRUCT_OFFSET(UTargetingComponent, SenseDamageComp); }
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_14_PROLOG
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_GENERATED_BODY_LEGACY \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_12_PROLOG
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_SPARSE_DATA \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_RPC_WRAPPERS \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_INCLASS \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_STANDARD_CONSTRUCTORS \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_SPARSE_DATA \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_RPC_WRAPPERS \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_INCLASS \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FGAI_Source_FGAI_Components_TargetingComponent_h_17_GENERATED_BODY \
+#define FGAI_Source_FGAI_Components_TargetingComponent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_SPARSE_DATA \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_INCLASS_NO_PURE_DECLS \
-	FGAI_Source_FGAI_Components_TargetingComponent_h_17_ENHANCED_CONSTRUCTORS \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_SPARSE_DATA \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FGAI_Source_FGAI_Components_TargetingComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

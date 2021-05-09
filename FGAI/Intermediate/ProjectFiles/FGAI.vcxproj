@@ -284,11 +284,15 @@
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\FGAI\AI\StateMachine\FGAIStateChasing.cpp" />
+    <ClCompile Include="..\..\Source\FGAI\AI\StateMachine\FGAIStatePatroling.cpp" />
     <ClCompile Include="..\..\Source\FGAI\Components\DamageSenseComponent.cpp" />
     <ClCompile Include="..\..\Source\FGAI\Components\HealthComponent.cpp" />
     <ClCompile Include="..\..\Source\FGAI\Components\TakeDamageComp.cpp" />
     <ClCompile Include="..\..\Source\FGAI\Components\TargetingComponent.cpp" />
     <ClCompile Include="..\..\Source\FGAI\LibBp.cpp" />
+    <ClInclude Include="..\..\Source\FGAI\AI\StateMachine\FGAIStateChasing.h" />
+    <ClInclude Include="..\..\Source\FGAI\AI\StateMachine\FGAIStatePatroling.h" />
     <ClInclude Include="..\..\Source\FGAI\Components\DamageSenseComponent.h" />
     <ClInclude Include="..\..\Source\FGAI\Components\HealthComponent.h" />
     <ClInclude Include="..\..\Source\FGAI\Components\TakeDamageComp.h" />

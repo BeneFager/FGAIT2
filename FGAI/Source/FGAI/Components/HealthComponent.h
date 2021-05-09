@@ -13,7 +13,7 @@ class FGAI_API UHealthComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, Category = Health)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Health)
 	float Health = 100.f;
 
 	UFUNCTION()

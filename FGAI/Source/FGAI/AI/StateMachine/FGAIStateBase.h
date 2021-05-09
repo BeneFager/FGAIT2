@@ -4,6 +4,7 @@
 #include "FGAIStateBase.generated.h"
 
 class AActor;
+class AFGEnemy;
 
 UCLASS(BlueprintType, Blueprintable, DefaultToInstanced, EditInlineNew)
 class UFGAIStateBase : public UObject

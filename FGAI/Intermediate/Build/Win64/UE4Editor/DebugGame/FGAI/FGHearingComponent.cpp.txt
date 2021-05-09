@@ -1,0 +1,16 @@
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\DebugGame\FGAI\Definitions.FGAI.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\AI\Sensing\FGHearingComponent.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGHearingComponent.generated.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Source\FGAI\AI\Sensing\FGNoiseActor.h
+A:\Perforce\Team_2_FGAIUpg\FG20FT_AI_Team2\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGNoiseActor.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+A:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

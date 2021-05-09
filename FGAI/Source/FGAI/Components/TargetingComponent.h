@@ -4,10 +4,8 @@
 
 #include "CoreMinimal.h"
 
-
 #include "DamageSenseComponent.h"
 #include "Components/ActorComponent.h"
-#include "FGAI/AI/Sensing/FGHearingComponent.h"
 #include "FGAI/AI/Sensing/FGVisionSensingComponent.h"
 #include "TargetingComponent.generated.h"
 
@@ -16,28 +14,24 @@ class FGAI_API UTargetingComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Target)
+	AActor* CurrentTarget;
+
+	
+	
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
 	UPROPERTY()
-	AActor* CurrentTarget;
-	
-	UPROPERTY()
 	UFGVisionSensingComponent* VisionSensingComponent;
-	
+
 	UPROPERTY()
 	UDamageSenseComponent* SenseDamageComp;
-	
-	UPROPERTY()
-	UFGHearingComponent* HearingComponent;
-
 
 	UFUNCTION()
 	void HandleVisionSense(const FFGVisionSensingResults& Results);
 	UFUNCTION()
 	void HandleDamageSense(const FFGDamageSensingResults& Results);
-	UFUNCTION()
-	void HandleHearingSense();
-	
 };
